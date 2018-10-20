@@ -1,0 +1,34 @@
+body {
+  background: #FF6137;
+}
+form {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-row-gap: 15px;
+  justify-items: center;
+  border: 1px dashed red;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: #F9F9F9;
+}
+
+#options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr 5fr);
+}
+
+#controls, #io {
+  text-align: center;
+}
+fieldset, textarea {
+  width: 80%;
+}
+label {
+  justify-self: start;
+}
+
+input[type=checkbox] {
+  justify-self: end;
+  border: 1px dashed blue;
+}

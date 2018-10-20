@@ -1,0 +1,25 @@
+{
+  "name": "rubiks-decoder",
+  "version": "1.0.0",
+  "description": "parse, convert and work with algorithms",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files \"css/*.css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slipsnip/Rubiks-Decoder.git"
+  },
+  "author": "Michael Esch",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/slipsnip/Rubiks-Decoder/issues"
+  },
+  "homepage": "https://github.com/slipsnip/Rubiks-Decoder#readme",
+  "devDependencies": {
+    "eslint": "^5.7.0"
+  },
+  "dependencies": {
+    "gulp": "^4.0.0"
+  }
+}

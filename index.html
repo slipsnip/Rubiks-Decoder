@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rubiks Parser</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Controls</legend>
+        <div id="controls">
+          <input type="button" class="btn" id="upload" value="Upload" />
+          <input type="button" class="btn" id="parse" value="Parse" />
+          <input type="button" class="btn" id="export" value="Export" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Options</legend>
+        <div id="options">
+          <input type="checkbox" name="triggers" id="triggers">
+          <label for="triggers">Triggers</label>
+          <input type="checkbox" name="named-triggers" id="named-triggers">
+          <label for="named-triggers">Named Triggers</label>
+          <input type="checkbox" name="mirrors" id="mirrors">
+          <label for="mirrors">Mirrors</label>
+          <input type="checkbox" name="inverses" id="inverses">
+          <label for="inverses">Inverse</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Input / Output</legend>
+          <div id="io">
+            <textarea name="algs" id="algs-in" cols="30" rows="10"></textarea>
+            <textarea name="algs" id="algs-out" cols="30" rows="10"></textarea>
+          </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
